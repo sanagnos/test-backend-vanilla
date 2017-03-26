@@ -1,0 +1,14 @@
+{
+  "name"           : "test-backend-vanilla",
+  "version"        : "0.0.1",
+  "description"    : "Sample backend project",
+  "author"         : "Stelios Anagnostopoulos <stelios@outlook.com>",
+  "license"        : "All rights reserved.",
+  "repository"     : "https://github.com/sanagnos/user-service",
+  "bugs"           : { "url": "https://github.com/sanagnos/user-service/issues" },
+  "preferGlobal"   : true,
+  "private"        : true,
+  "scripts"        : { "start": "iojs main", "test": "./node_modules/.bin/mocha" },
+  "dependencies"   : { "mysql": "*" },
+  "devDependencies": { "mocha": "*" }
+}
