@@ -8,7 +8,7 @@
   "bugs"           : { "url": "https://github.com/sanagnos/test-backend-vanilla/issues" },
   "preferGlobal"   : true,
   "private"        : true,
-  "scripts"        : { "start": "iojs main", "test": "./node_modules/.bin/mocha" },
+  "scripts"        : { "start": "node main", "test": "./node_modules/.bin/mocha" },
   "dependencies"   : { "mysql": "*" },
   "devDependencies": { "mocha": "*" }
 }
