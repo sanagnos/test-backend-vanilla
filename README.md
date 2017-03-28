@@ -17,7 +17,7 @@ The configurations to set up the server & database can be accessed or modified i
 1. `host`    : MySQL host
 2. `user`    : MySQL user
 3. `password`: MySQL password
-4. `database`: MySQL database name (database have already been created via the `create database [name]` SQL command)
+4. `database`: MySQL database name (database must have already been created via the `create database [name]` SQL command)
 
 ## Getting started
 
